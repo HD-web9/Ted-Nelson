@@ -1,0 +1,123 @@
+/*background*/
+body 
+{
+	background-color: #000000;
+}
+/*text*/
+header
+{
+	text-align: right;
+	background-color: #000000;
+	background-image: url('banner.png');
+	background-repeat: no-repeat;
+	border-bottom: 10px double #ffffff
+}
+.lien-wiki
+{ 
+	font-family: Raleway;
+	font-size: 50px;
+	text-decoration: none;
+}
+p, h2 
+{
+	text-align: center-right
+}
+p 
+{
+	font-family: Raleway;
+	color: #ffffff;
+	font-size: 30px;
+	text-shadow: 0.3px 0.3px 5px #88bbe8
+}
+li
+{
+	font-family: Raleway;
+	color: #ffffff;
+	font-size: 20px;
+	text-shadow: 0.3px 0.3px 5px #88bbe8;
+}
+h1
+{
+	font-family: Poppins;
+	color: #c0c0c0;
+	font-size: 40px;
+	text-align: right;
+	margin-right: 100px;
+	font-size: 75px;
+	line-height: 1.25
+}
+h2
+{
+	font-family: Montserrat;
+	color: #c0c0c0;
+	font-size: 50px
+}
+strong
+{
+	text-shadow: none;
+	text-decoration: underline;
+}
+em
+{
+	text-shadow: none;
+	font-weight: bolder
+}
+.italic
+{
+	text-shadow: none;
+	font-style: italic
+}
+ul
+{
+	list-style-type: circle;
+	font-size: 60px;
+	line-height: 0.75
+}
+li
+{
+	font-size: 30px;
+	line-height: 1
+	
+}
+/*links*/
+a:link
+{
+	text-shadow: none;
+	color: #ffff96;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #ffd78c
+}
+a:active
+{
+	color: #88bbe8
+}
+/*images*/
+img
+{
+	height: 50%;
+	width: 100%;
+	border-top: 5px dashed #88bbe8;
+	border-bottom: 5px dashed #88bbe8
+}
+.ted-nelson-2
+{
+	display: block;
+	width: 50%;
+	height: 60%;
+	margin-right: 25%;
+	margin-left: 25%;
+	border-right: 5px dashed #88bbe8;
+	border-left: 5px dashed #88bbe8;
+	border-top: 5px solid #88bbe8;
+	border-bottom: 5px solid #88bbe8;
+}
+/*box*/	
+main
+{
+	border: 10px solid #ffff96;
+	margin: 10px 150px 10px 150px;
+	padding: 50px
+}
